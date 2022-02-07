@@ -1,6 +1,7 @@
 import type {NextPage} from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import {Link} from "@mui/material";
 
 
 const Home: NextPage = () => {
@@ -14,7 +15,7 @@ const Home: NextPage = () => {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Welcome to <a href="/">My App</a>
+                    Welcome to <Link href="/"><a>My App</a></Link>
                 </h1>
 
 
